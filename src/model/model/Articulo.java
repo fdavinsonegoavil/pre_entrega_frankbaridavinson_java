@@ -1,3 +1,4 @@
+package model;
 public class Articulo extends Producto{    
     private Categoria categoria;
 

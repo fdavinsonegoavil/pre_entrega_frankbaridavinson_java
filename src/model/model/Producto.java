@@ -1,3 +1,5 @@
+package model;
+
 public abstract class Producto implements Vendible {
     private int idProducto;
     private String nombreProducto;

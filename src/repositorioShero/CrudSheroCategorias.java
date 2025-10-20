@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import controladorShero.CrudConsolaShero;
 import model.Categoria;
 
-public class CrudSheroCategorias extends CrudConsolaShero <Categoria> {
+
+public class CrudSheroCategorias extends CrudConsolaShero<Categoria> {
     private final ArrayList<Categoria> categorias;
     public CrudSheroCategorias(ArrayList<Categoria> categorias) {
         this.categorias = categorias;

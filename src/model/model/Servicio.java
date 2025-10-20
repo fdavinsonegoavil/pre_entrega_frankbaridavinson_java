@@ -1,3 +1,5 @@
+package model;
+
 public class Servicio extends Producto {
     private int duracionServicioHoras; // en horas
 
@@ -9,8 +11,8 @@ public class Servicio extends Producto {
     public int getDuracionServicioHoras() {
         return duracionServicioHoras;
     }
-    public void setDuracionHoras(int duracionHoras) { 
-        this.duracionHoras = duracionHoras;
+    public void duracionServicioHoras(int duracionServicioHoras) { 
+        this.duracionServicioHoras = duracionServicioHoras;
     }
 
     @Override
